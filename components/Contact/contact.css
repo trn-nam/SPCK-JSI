@@ -1,0 +1,77 @@
+.contact-card {
+    background-color: rgb(38, 38, 38);
+    float: right;
+    margin-top: 40px;
+    width: 280px;
+    height: 410px;
+    /* border-radius: 20px; */
+    margin-right: 40px;
+    position: sticky;
+    -moz-box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.6)  ; 
+	-webkit-box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.6)  ; 
+	box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.6)  ;
+}
+
+.info {
+    display: flex;
+    color: #414141;
+    background-color: #f86c0e;
+}
+
+.info img {
+    margin: 15px;
+    width: 55px;
+    height: 55px;
+    border-radius: 14px;
+}
+
+.text {
+    font-size: 10.5px;
+    margin-top: 12px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.UserName {
+    font-size: 15px;
+    background-color: #414141;
+    color:#fff;
+    border-radius: 10px;
+    padding: 0 10px;
+    width: 83.4px ;
+}
+
+.Id{
+    font-size: 10.5px;
+    background-color: #414141;
+    color:#fff;
+    margin-top: 2px;
+    padding: 3px 10px;
+    border-radius: 10px;
+}
+
+.gg-map {
+    background-color: #414141;
+    transform: translate(10px, 10px);
+    width: 260px;
+    height: 120px;
+    text-align: center;
+}
+
+.social-media{
+    padding-top: 145px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon  svg {
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 35px ;
+    height: 35px;
+    color: #fff;
+}
